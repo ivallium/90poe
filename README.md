@@ -1,7 +1,8 @@
 # 90 POE Challenge
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+In order to access GitHub GraphQL API please generate a [Public Access Token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) in GitHub
+and copy and paste it into `````/src/graphql/index.ts````` where it says INSERT_PUBLIC_TOKEN_HERE
 ## Available Scripts
 
 In the project directory, you can run:

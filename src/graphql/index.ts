@@ -9,10 +9,11 @@ const authLink = setContext((_, { headers }) => {
     // get the authentication token from local storage if it exists
     const token = localStorage.getItem('token');
     // return the headers to the context so httpLink can read them
+    // Use your own GH bearer token here
     return {
         headers: {
             ...headers,
-            authorization: token ? `Bearer ${token}` : "Bearer 5e11fd1cc9dbae170435f12e6b1ca46e5443b345",
+            authorization: token ? `Bearer ${token}` : "Bearer INSERT_BEARER_TOKEN_HERE",
         }
     }
 });
