@@ -1,7 +1,7 @@
 import React, {ChangeEvent, useState} from "react";
 import {SearchResults} from "./SearchResults";
 import styled from "styled-components";
-import {GoMarkGithub} from "react-icons/all";
+import {GoMarkGithub} from "react-icons/go";
 import "./styles.css";
 
 const SearchPageContainer = styled.div`

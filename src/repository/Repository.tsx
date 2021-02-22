@@ -1,5 +1,5 @@
 import React from "react";
-import {GoRepoForked, GoStar} from "react-icons/all";
+import {GoRepoForked, GoStar} from "react-icons/go";
 import styled from "styled-components";
 
 export interface RepositoryProps {

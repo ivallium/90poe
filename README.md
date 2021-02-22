@@ -35,3 +35,4 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ## Improvements
 - Separate styled components into separate files/directory
 - Separate types into types.d.ts files 
+- Add more test cases

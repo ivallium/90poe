@@ -6,9 +6,7 @@ export const SEARCH = gql`
             repositoryCount
             pageInfo {
                 endCursor
-                startCursor
                 hasNextPage
-                hasPreviousPage
             }
             edges {
                 node {
@@ -17,19 +15,13 @@ export const SEARCH = gql`
                         name
                         createdAt 
                         description 
-                        isArchived
-                        isPrivate
                         forkCount
                         stargazerCount
                         url
                         owner {
                             login
                             id
-                            __typename
                             url
-                        }
-                        licenseInfo {
-                            key
                         }
                     }
                 }
